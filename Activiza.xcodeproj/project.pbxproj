@@ -11,6 +11,12 @@
 		8E190F4A2C201FED00D47318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F492C201FED00D47318 /* ContentView.swift */; };
 		8E190F4C2C201FEE00D47318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E190F4B2C201FEE00D47318 /* Assets.xcassets */; };
 		8E190F4F2C201FEE00D47318 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E190F4E2C201FEE00D47318 /* Preview Assets.xcassets */; };
+		8E190F562C2190D300D47318 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F552C2190D300D47318 /* MainView.swift */; };
+		8E190F592C2194F400D47318 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F582C2194F400D47318 /* Onboarding1.swift */; };
+		8E190F5C2C2199C300D47318 /* LoginFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F5B2C2199C300D47318 /* LoginFunctions.swift */; };
+		8E190F5E2C23323200D47318 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F5D2C23323200D47318 /* Onboarding2.swift */; };
+		8E190F602C23358100D47318 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F5F2C23358100D47318 /* Onboarding3.swift */; };
+		8E190F642C23361400D47318 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E190F632C23361400D47318 /* OnboardingFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		8E190F492C201FED00D47318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E190F4B2C201FEE00D47318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E190F4E2C201FEE00D47318 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E190F552C2190D300D47318 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8E190F582C2194F400D47318 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
+		8E190F5B2C2199C300D47318 /* LoginFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFunctions.swift; sourceTree = "<group>"; };
+		8E190F5D2C23323200D47318 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		8E190F5F2C23358100D47318 /* Onboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		8E190F632C23361400D47318 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,13 @@
 		8E190F462C201FED00D47318 /* Activiza */ = {
 			isa = PBXGroup;
 			children = (
+				8E190F5A2C2199A300D47318 /* Functions */,
+				8E190F572C2194DC00D47318 /* Onboarding */,
 				8E190F472C201FED00D47318 /* ActivizaApp.swift */,
 				8E190F492C201FED00D47318 /* ContentView.swift */,
 				8E190F4B2C201FEE00D47318 /* Assets.xcassets */,
 				8E190F4D2C201FEE00D47318 /* Preview Content */,
+				8E190F552C2190D300D47318 /* MainView.swift */,
 			);
 			path = Activiza;
 			sourceTree = "<group>";
@@ -65,6 +80,25 @@
 				8E190F4E2C201FEE00D47318 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E190F572C2194DC00D47318 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8E190F582C2194F400D47318 /* Onboarding1.swift */,
+				8E190F5D2C23323200D47318 /* Onboarding2.swift */,
+				8E190F5F2C23358100D47318 /* Onboarding3.swift */,
+				8E190F632C23361400D47318 /* OnboardingFlow.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8E190F5A2C2199A300D47318 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				8E190F5B2C2199C300D47318 /* LoginFunctions.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E190F592C2194F400D47318 /* Onboarding1.swift in Sources */,
 				8E190F4A2C201FED00D47318 /* ContentView.swift in Sources */,
+				8E190F642C23361400D47318 /* OnboardingFlow.swift in Sources */,
+				8E190F562C2190D300D47318 /* MainView.swift in Sources */,
+				8E190F5E2C23323200D47318 /* Onboarding2.swift in Sources */,
+				8E190F602C23358100D47318 /* Onboarding3.swift in Sources */,
 				8E190F482C201FED00D47318 /* ActivizaApp.swift in Sources */,
+				8E190F5C2C2199C300D47318 /* LoginFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "gym.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
